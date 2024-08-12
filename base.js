@@ -1,0 +1,3 @@
+function openFacebook(){
+    alert("aaaaaaaa")
+}
