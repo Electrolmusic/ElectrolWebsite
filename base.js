@@ -1,3 +1,3 @@
-function openFacebook(){
-    alert("aaaaaaaa")
-}
+document.getElementById("facebook-button").onclick = function() {
+    alert('messaj')
+};
