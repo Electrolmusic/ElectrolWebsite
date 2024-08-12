@@ -12,6 +12,8 @@
     height: 100px;
     background-color: rgba(94, 94, 94, 0.388);
     align-items: center;
+    top: 0;
+    left: 0;
     position: fixed;
 }
 
@@ -28,9 +30,10 @@ body {
 
 footer {
     background-color: rgba(94, 94, 94, 0.388);
-    position: fixed;
     bottom: 0;
     width: 100%;
+    left: 0;
+    position: fixed;
   }
 
 img.socials-imgs:hover {
@@ -59,4 +62,8 @@ img.socials-imgs:hover {
 
 .freetouse:hover {
     text-shadow: 0px 0px 20px rgb(0, 255, 0);
+}
+
+.songsbutton {
+    font-family: "Montserrat";
 }
