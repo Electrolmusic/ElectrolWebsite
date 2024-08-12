@@ -21,3 +21,7 @@ function openTwitter() {
 function openDiscord() {
     window.open("https://discord.gg/KFDE6ujHSE");
 }
+
+function songsButtonclicked() {
+    location.href="./pages/songs/index.html";
+}

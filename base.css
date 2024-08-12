@@ -20,7 +20,7 @@
 p.p {
     font-family: "Montserrat", sans-serif;
     line-height: 5px;
-    font-size: large
+    font-size: 28px
 }
 
 body {
@@ -65,5 +65,10 @@ img.socials-imgs:hover {
 }
 
 .songsbutton {
+    font-size: 40px;
     font-family: "Montserrat";
+}
+
+.songsbutton:hover {
+    cursor: pointer;
 }
