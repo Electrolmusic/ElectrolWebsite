@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="base.css"></rel>
-        <link rel="script" src="base.js">
+        <script src="./base.js"></script>
         <title>Electrol | Home</title>
         <link rel="icon" type="image/jpg" href="./favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,11 +23,12 @@
         <p class="p">Songs are <span class="freetouse">free to use</span>.</p>
         <footer>
             <div class="ftrdiv">
-                <img class="facebook-button socials-imgs" id="facebook-button" width="70" height="70" src="https://img.icons8.com/material/96/000000/facebook-new.png" alt="facebook"/>
-                <img class="soundcloud-button socials-imgs" width="70" height="70" src="https://img.icons8.com/ios-filled/80/soundcloud.png" alt="soundcloud"/>
-                <img class="youtube-button socials-imgs" width="70" height="70" src="https://img.icons8.com/material-rounded/80/youtube-play.png" alt="youtube-play"/>
-                <img class="instagram-button socials-imgs" width="60" height="60" src="https://img.icons8.com/ios-filled/50/instagram.png" alt="instagram-new"/>
-                <img class="twitter-button socials-imgs" width="60" height="60" src="https://img.icons8.com/ios-filled/80/twitter.png   " alt="twitter"/>
+                <img class="facebook-button socials-imgs" onclick="openFacebook()" id="facebook-button" width="70" height="70" src="https://img.icons8.com/material/96/000000/facebook-new.png" alt="facebook"/>
+                <img class="soundcloud-button socials-imgs" onclick="openSoundCloud()" width="70" height="70" src="https://img.icons8.com/ios-filled/80/soundcloud.png" alt="soundcloud"/>
+                <img class="youtube-button socials-imgs" onclick="openYouTube()" width="70" height="70" src="https://img.icons8.com/material-rounded/80/youtube-play.png" alt="youtube-play"/>
+                <img class="instagram-button socials-imgs" onclick="openInstagram()" width="60" height="60" src="https://img.icons8.com/ios-filled/80/instagram.png" alt="instagram-new"/>
+                <img class="twitter-button socials-imgs" width="60" onclick="openTwitter()" height="60" src="https://img.icons8.com/ios-filled/80/twitter.png" alt="twitter"/>
+                <img class="discord-button socials-imgs" width="65" onclick="openDiscord()" height="65" src="https://img.icons8.com/ios-filled/80/discord-logo.png" alt="Discord"/>
             </div>
         </footer>
     </body>
