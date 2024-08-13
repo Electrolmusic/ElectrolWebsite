@@ -26,6 +26,10 @@ function songsButtonclicked() {
     location.href="./pages/songs/index.html";
 }
 
+function songsButtonclickedatToU() {
+    location.href="../../pages/songs/index.html";
+}
+
 function termsofuseButtonclicked() {
     location.href="./pages/termsofuse/index.html"
 }
