@@ -4,6 +4,7 @@
     font-family: "Montserrat", sans-serif;
     text-shadow: 0px 0px 10px #ffffff;
     color: #ffffff;
+    margin-right: 50px;
 }
 
 .header {
@@ -64,11 +65,45 @@ img.socials-imgs:hover {
     text-shadow: 0px 0px 20px rgb(0, 255, 0);
 }
 
-.songsbutton {
-    font-size: 40px;
+.menubuttons {
+    background-color: #fff;
+    font-size: 30px;
+    font-weight: bold;
     font-family: "Montserrat";
+    margin-left: 20px;
+    transition: .3s;
+    padding-top: 4px;
+    padding-right: 30px;
+    padding-bottom: 4px;
+    padding-left: 30px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: rgb(255, 255, 255);
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
-.songsbutton:hover {
+.menubuttons:hover {
     cursor: pointer;
+    filter: drop-shadow(0px 0px 5px #fff);
+}
+
+.songsbutton {
+    color: rgb(95, 218, 255);
+}
+
+.termsofusebutton {
+    color: rgb(95, 255, 162);
 }
