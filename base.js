@@ -25,3 +25,11 @@ function openDiscord() {
 function songsButtonclicked() {
     location.href="./pages/songs/index.html";
 }
+
+function termsofuseButtonclicked() {
+    location.href="./pages/termsofuse/index.html"
+}
+
+function backtoHome() {
+    location.href="../../index.html"
+}

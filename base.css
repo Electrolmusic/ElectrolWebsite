@@ -5,6 +5,7 @@
     text-shadow: 0px 0px 10px #ffffff;
     color: #ffffff;
     margin-right: 50px;
+    margin-left: 20px;
 }
 
 .header {
@@ -22,6 +23,12 @@ p.p {
     font-family: "Montserrat", sans-serif;
     line-height: 5px;
     font-size: 28px
+}
+
+body.errorpage {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 body {
@@ -55,13 +62,13 @@ img.socials-imgs:hover {
     align-items: center
 }
 
-.freetouse {
+.greentext {
     color: rgb(0, 255, 0);
     text-shadow: 0px 0px 10px rgb(0, 255, 0);
     transition: .3s;
 }
 
-.freetouse:hover {
+.greentext:hover {
     text-shadow: 0px 0px 20px rgb(0, 255, 0);
 }
 
@@ -97,7 +104,7 @@ img.socials-imgs:hover {
 
 .menubuttons:hover {
     cursor: pointer;
-    filter: drop-shadow(0px 0px 5px #fff);
+    filter: drop-shadow(0px 0px 5px #ffffff);
 }
 
 .songsbutton {
@@ -106,4 +113,13 @@ img.socials-imgs:hover {
 
 .termsofusebutton {
     color: rgb(95, 255, 162);
+}
+
+.backtohome:hover {
+    cursor: pointer;
+}
+
+.h1-errorpage {
+    text-align: center;
+    vertical-align: middle;
 }
