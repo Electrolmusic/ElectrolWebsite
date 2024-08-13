@@ -37,3 +37,7 @@ function termsofuseButtonclicked() {
 function backtoHome() {
     location.href="../../index.html"
 }
+
+function termsofuseButtonclickedatsongs() {
+    location.href="../../pages/termsofuse/index.html"
+}
