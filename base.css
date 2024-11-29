@@ -167,6 +167,16 @@ img.socials-imgs:hover {
     text-shadow: 0px 0px 20px rgb(255, 247, 0);
 }
 
+.redtext {
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 0px 10px rgb(255, 0, 0);
+    transition: .3s;
+}
+
+.redtext:hover {
+    text-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+
 .pinktext {
     color: rgb(255, 0, 238);
     text-shadow: 0px 0px 10px rgb(255, 0, 238);
