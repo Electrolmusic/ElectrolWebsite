@@ -33,12 +33,8 @@ body.errorpage {
 }
 
 body {
-  width: 100%;
-  height: 100vh;
-  background-image: url('https://electrol.netlify.app/img/AliveCRZRec2.png');
-  background-position: center center; /* 中央寄せ */
-  background-repeat: no-repeat; /* 画像の繰り返しなし */
-  background-size: cover; /* 画像を要素全体に合わせる */
+    background-size: cover;
+    Background-repeat:no-repeat;
 }
 
 footer {
