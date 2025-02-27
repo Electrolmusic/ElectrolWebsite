@@ -27,15 +27,15 @@ function songsButtonclicked() {
 }
 
 function songsButtonclickedatToU() {
-    location.href="../../pages/songs/index.html";
+    location.href="https://electrol.netlify.app/pages/songs/index.html";
 }
 
 function termsofuseButtonclicked() {
-    location.href="./pages/termsofuse/index.html"
+    location.href="https://electrol.netlify.app/pages/termsofuse/index.html"
 }
 
 function backtoHome() {
-    location.href="../../index.html"
+    location.href="https://electrol.netlify.app/index.html"
 }
 
 function termsofuseButtonclickedatsongs() {
