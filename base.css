@@ -125,7 +125,7 @@ img.socials-imgs:hover {
     font-size: 20px;
     font-weight: bold;
     font-family: "Montserrat";
-    margin-left: 10px;
+    margin-left: 0px;
     transition: .3s;
     padding-top: 3px;
     padding-right: 10px;
@@ -162,6 +162,8 @@ img.socials-imgs:hover {
     font-weight: bold;
     font-family: "Montserrat";
     margin-left: 0px;
+    margin-bottom: 1px;
+    margin-top: 1px;
     transition: .3s;
     padding-top: 2px;
     padding-right: 8px;
