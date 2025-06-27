@@ -120,6 +120,41 @@ img.socials-imgs:hover {
     filter: drop-shadow(0px 0px 5px #ffffff);
 }
 
+.downloadbuttons {
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    margin-left: 20px;
+    transition: .3s;
+    padding-top: 3px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: rgb(255, 255, 255);
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.downloadbuttons:hover {
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 5px #ffffff);
+}
+
 .songsbutton {
     color: rgb(95, 218, 255);
 }
