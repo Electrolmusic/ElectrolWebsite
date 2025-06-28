@@ -298,19 +298,13 @@ img.socials-imgs:hover {
 }
 
 /* 下線のスタイル */
-.labellink::after {
-  background-color: #333; /* 下線の色 */
-  bottom: -4px; /* 要素の下端からの距離 */
-  content: ""; /* 要素に内容を追加 */
-  height: 2px; /* 下線の高さ */
-  left: 0; /* 要素の左端からの距離 */
-  position: absolute; /* 絶対位置指定 */
-  transform: scale(0, 1); /* 下線を横方向に0倍、縦方向に1倍に変形（非表示） */
-  transform-origin: center top; /* 変形の原点を中央上に指定 */
-  transition: transform .3s; /* 変形をアニメーション化 */
-  width: 100%; /* 要素の幅 */
+.labellink {
+    color: #ffffff;
+    text-decoration: none;
+    transition: .3s;
 }
-/* リンクにホバーした際の下線の表示 */
-.labellink:hover::after {
-  transform: scale(1, 1); /* 下線を横方向に1倍、縦方向に1倍に変形（表示） */
+
+.labellink:hover {
+    text-decoration: underline;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
