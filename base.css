@@ -116,7 +116,8 @@ img.socials-imgs:hover {
     filter: drop-shadow(0px 0px 5px #ffffff);
 }
 
-.downloadbuttons {
+.downloadbuttons,.downloadbuttons:visited {
+    color: rgb(36, 149, 255);
     background-color: #fff;
     font-size: 20px;
     font-weight: bold;
@@ -152,7 +153,8 @@ img.socials-imgs:hover {
     filter: drop-shadow(0px 0px 5px #ffffff);
 }
 
-.downloadbuttons2 {
+.downloadbuttons2,.downloadbuttons2:visited {
+    color: rgb(36, 149, 255);
     background-color: #fff;
     font-size: 18px;
     font-weight: bold;
