@@ -220,6 +220,7 @@ img.socials-imgs:hover {
     font-family: "Montserrat";
     color: #ffffff;
     width: 100%;
+    min-width: 600px;
 }
 
 .songsth {
@@ -290,4 +291,8 @@ img.socials-imgs:hover {
     width: 50%;
     height: auto;
     text-align: left;
+}
+
+.songstablediv {
+    overflow-x: scroll;
 }
