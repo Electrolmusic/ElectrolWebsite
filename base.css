@@ -305,6 +305,7 @@ img.socials-imgs:hover {
 }
 
 .labellink:hover {
+    color: #ffffff;
     text-decoration: underline;
     text-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
